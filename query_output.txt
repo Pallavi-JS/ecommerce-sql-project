@@ -1,0 +1,601 @@
+ customer_id |    full_name    |             email             |   city    
+-------------+-----------------+-------------------------------+-----------
+          29 | Lakshmi Das     | lakshmi.das29@example.com     | Delhi
+           9 | Meera Das       | meera.das9@example.com        | Pune
+          19 | Pooja Das       | pooja.das19@example.com       | Hyderabad
+          26 | Harsh Gupta     | harsh.gupta26@example.com     | 
+           6 | Ishaan Gupta    | ishaan.gupta6@example.com     | Hyderabad
+          16 | Vikram Gupta    | vikram.gupta16@example.com    | Mumbai
+           4 | Diya Iyer       | diya.iyer4@example.com        | Bengaluru
+          24 | Manish Iyer     | manish.iyer24@example.com     | Chennai
+          14 | Rahul Iyer      | rahul.iyer14@example.com      | Pune
+          10 | Arjun Joshi     | arjun.joshi10@example.com     | Pune
+          20 | Nikhil Joshi    | nikhil.joshi20@example.com    | Mumbai
+          30 | Yash Joshi      | yash.joshi30@example.com      | Bengaluru
+          18 | Amit Mehta      | amit.mehta18@example.com      | Pune
+          28 | Kunal Mehta     | kunal.mehta28@example.com     | Kolkata
+           8 | Rohan Mehta     | rohan.mehta8@example.com      | Delhi
+           5 | Ananya Nair     | ananya.nair5@example.com      | Hyderabad
+          25 | Divya Nair      | divya.nair25@example.com      | Pune
+          15 | Neha Nair       | neha.nair15@example.com       | Bengaluru
+          12 | Karan Patel     | karan.patel12@example.com     | 
+          22 | Siddharth Patel | siddharth.patel22@example.com | Hyderabad
+           2 | Vivaan Patel    | vivaan.patel2@example.com     | Hyderabad
+           3 | Aditya Reddy    | aditya.reddy3@example.com     | Mumbai
+          13 | Priya Reddy     | priya.reddy13@example.com     | Kolkata
+          23 | Tanvi Reddy     | tanvi.reddy23@example.com     | Hyderabad
+           1 | Aarav Sharma    | aarav.sharma1@example.com     | Mumbai
+          21 | Riya Sharma     | riya.sharma21@example.com     | Hyderabad
+          11 | Saanvi Sharma   | saanvi.sharma11@example.com   | Mumbai
+          27 | Isha Singh      | isha.singh27@example.com      | Chennai
+           7 | Kavya Singh     | kavya.singh7@example.com      | 
+          17 | Sneha Singh     | sneha.singh17@example.com     | Kolkata
+(30 rows)
+
+   product_name    |  price  
+-------------------+---------
+ Smart Watch       | 4999.00
+ Mixer Grinder     | 3499.00
+ Cricket Bat       | 2999.00
+ Lego Building Set | 2799.00
+ Wireless Earbuds  | 2499.00
+(5 rows)
+
+       product_name        |  price  
+---------------------------+---------
+ SQL Fundamentals (Book)   |  549.00
+ Cotton T-Shirt            |  599.00
+ Python Crash Course       |  699.00
+ Face Serum                |  749.00
+ Yoga Mat                  |  799.00
+ Data Engineering Handbook |  899.00
+ Non-stick Pan             |  899.00
+ Formal Shirt              |  999.00
+ Board Game                | 1199.00
+ Electric Kettle           | 1199.00
+ Bedsheet Set              | 1299.00
+ Power Bank 10000mAh       | 1299.00
+ Denim Jeans               | 1499.00
+(13 rows)
+
+ first_name | last_name |   city    
+------------+-----------+-----------
+ Yash       | Joshi     | Bengaluru
+ Diya       | Iyer      | Bengaluru
+ Neha       | Nair      | Bengaluru
+ Rohan      | Mehta     | Delhi
+ Lakshmi    | Das       | Delhi
+ Aarav      | Sharma    | Mumbai
+ Nikhil     | Joshi     | Mumbai
+ Aditya     | Reddy     | Mumbai
+ Vikram     | Gupta     | Mumbai
+ Saanvi     | Sharma    | Mumbai
+(10 rows)
+
+       product_name        
+---------------------------
+ Smartphone Stand
+ SQL Fundamentals (Book)
+ Data Engineering Handbook
+ Shampoo 500ml
+ Smart Watch
+(5 rows)
+
+ order_id | customer_id | order_date 
+----------+-------------+------------
+       78 |          24 | 2025-09-26
+        5 |          10 | 2025-09-03
+       54 |           2 | 2025-08-26
+       32 |          14 | 2025-08-13
+       83 |          25 | 2025-08-01
+       27 |          22 | 2025-07-21
+       12 |           8 | 2025-06-20
+       61 |          23 | 2025-06-12
+       72 |          22 | 2025-06-11
+       19 |          18 | 2025-06-09
+(10 rows)
+
+ customer_id | first_name | last_name 
+-------------+------------+-----------
+           1 | Aarav      | Sharma
+           5 | Ananya     | Nair
+           9 | Meera      | Das
+          13 | Priya      | Reddy
+          17 | Sneha      | Singh
+          21 | Riya       | Sharma
+          25 | Divya      | Nair
+          29 | Lakshmi    | Das
+(8 rows)
+
+ first_name | phone_display 
+------------+---------------
+ Aarav      | N/A
+ Vivaan     | 9842868828
+ Aditya     | 9883197857
+ Diya       | 9814265799
+ Ananya     | N/A
+ Ishaan     | 9885329037
+ Kavya      | 9839587039
+ Rohan      | 9810872248
+ Meera      | N/A
+ Arjun      | 9838898923
+ Saanvi     | 9860992979
+ Karan      | 9815831819
+ Priya      | N/A
+ Rahul      | 9894374605
+ Neha       | 9819335534
+ Vikram     | 9848840994
+ Sneha      | N/A
+ Amit       | 9895320121
+ Pooja      | 9857683626
+ Nikhil     | 9896977837
+ Riya       | N/A
+ Siddharth  | 9846231783
+ Tanvi      | 9817507864
+ Manish     | 9863843426
+ Divya      | N/A
+ Harsh      | 9863100814
+ Isha       | 9843101783
+ Kunal      | 9888320463
+ Lakshmi    | N/A
+ Yash       | 9822201654
+(30 rows)
+
+ order_id | discount_pct 
+----------+--------------
+        1 |         5.00
+        2 |        15.00
+        3 |        15.00
+        4 |        10.00
+        5 |            0
+        6 |        15.00
+        7 |        10.00
+        8 |            0
+        9 |         0.00
+       10 |            0
+       11 |         5.00
+       12 |            0
+       13 |        10.00
+       14 |        20.00
+       15 |        15.00
+(15 rows)
+
+ product_id |        product_name         
+------------+-----------------------------
+         25 | Vintage Lamp (Discontinued)
+         26 | Gift Card Holder
+(2 rows)
+
+        product_name         | price_per_stock_unit 
+-----------------------------+----------------------
+ USB-C Cable                 |                 0.50
+ Smartphone Stand            |                 1.33
+ Cotton T-Shirt              |                 1.50
+ Shampoo 500ml               |                 1.81
+ SQL Fundamentals (Book)     |                 2.75
+ Mystery Novel               |                 3.32
+ Gift Card Holder            |                 3.32
+ Python Crash Course         |                 4.66
+ Yoga Mat                    |                 5.71
+ Face Serum                  |                 5.76
+ Formal Shirt                |                 9.08
+ Non-stick Pan               |                 9.46
+ Denim Jeans                 |                 9.99
+ Data Engineering Handbook   |                14.98
+ Bedsheet Set                |                15.28
+ Power Bank 10000mAh         |                16.24
+ Electric Kettle             |                18.45
+ Wireless Earbuds            |                20.83
+ Board Game                  |                23.98
+ Running Jacket              |                32.84
+ Bluetooth Speaker           |                44.42
+ Dumbbell Set 10kg           |                47.48
+ Lego Building Set           |                79.97
+ Mixer Grinder               |               116.63
+ Cricket Bat                 |               119.96
+ Smart Watch                 |               249.95
+ Vintage Lamp (Discontinued) |                     
+(27 rows)
+
+  status   | orders_without_ship_date 
+-----------+--------------------------
+ CANCELLED |                       12
+ PLACED    |                        5
+(2 rows)
+
+ total_customers | with_phone | missing_phone | with_city 
+-----------------+------------+---------------+-----------
+              30 |         22 |             8 |        27
+(1 row)
+
+  status   | num_orders 
+-----------+------------
+ DELIVERED |         55
+ CANCELLED |         12
+ SHIPPED   |          9
+ RETURNED  |          9
+ PLACED    |          5
+(5 rows)
+
+ category_name  | products | avg_price | min_price | max_price 
+----------------+----------+-----------+-----------+-----------
+ Toys           |        2 |   1999.00 |   1199.00 |   2799.00
+ Electronics    |        6 |   1907.33 |    249.00 |   4999.00
+ Sports         |        3 |   1899.00 |    799.00 |   2999.00
+ Home & Kitchen |        4 |   1724.00 |    899.00 |   3499.00
+ Clothing       |        4 |   1349.00 |    599.00 |   2299.00
+ Books          |        4 |    611.50 |    299.00 |    899.00
+ Beauty         |        2 |    574.00 |    399.00 |    749.00
+(7 rows)
+
+   city    | customers 
+-----------+-----------
+ Hyderabad |         7
+ Mumbai    |         5
+ Pune      |         5
+ Bengaluru |         3
+ Kolkata   |         3
+(5 rows)
+
+   method   | payments | total_collected 
+------------+----------+-----------------
+ UPI        |       26 |       184603.00
+ CARD       |       18 |       107309.00
+ NETBANKING |       13 |        79786.00
+ COD        |       13 |        71345.00
+(4 rows)
+
+ orders | gross_revenue | avg_order_value 
+--------+---------------+-----------------
+     69 |     473425.00 |         6861.23
+(1 row)
+
+ order_id | first_name |       product_name        | quantity | unit_price 
+----------+------------+---------------------------+----------+------------
+        1 | Riya       | SQL Fundamentals (Book)   |        3 |     549.00
+        2 | Neha       | Running Jacket            |        3 |    2299.00
+        3 | Arjun      | Mystery Novel             |        1 |     299.00
+        3 | Arjun      | Non-stick Pan             |        3 |     899.00
+        3 | Arjun      | Lego Building Set         |        2 |    2799.00
+        4 | Ananya     | Cotton T-Shirt            |        2 |     599.00
+        5 | Arjun      | Smartphone Stand          |        3 |     399.00
+        5 | Arjun      | Mystery Novel             |        2 |     299.00
+        5 | Arjun      | Mixer Grinder             |        3 |    3499.00
+        5 | Arjun      | Lego Building Set         |        1 |    2799.00
+        6 | Rahul      | SQL Fundamentals (Book)   |        3 |     549.00
+        6 | Rahul      | Data Engineering Handbook |        2 |     899.00
+        6 | Rahul      | Running Jacket            |        1 |    2299.00
+        7 | Saanvi     | Wireless Earbuds          |        1 |    2499.00
+        7 | Saanvi     | Formal Shirt              |        1 |     999.00
+        8 | Aditya     | Formal Shirt              |        3 |     999.00
+        8 | Aditya     | Yoga Mat                  |        2 |     799.00
+        9 | Kavya      | Wireless Earbuds          |        3 |    2499.00
+        9 | Kavya      | Data Engineering Handbook |        1 |     899.00
+        9 | Kavya      | Running Jacket            |        1 |    2299.00
+(20 rows)
+
+ customer_id | first_name | last_name | signup_date 
+-------------+------------+-----------+-------------
+          26 | Harsh      | Gupta     | 2024-03-14
+          27 | Isha       | Singh     | 2025-01-17
+          28 | Kunal      | Mehta     | 2024-07-04
+          30 | Yash       | Joshi     | 2024-02-26
+          29 | Lakshmi    | Das       | 2024-09-17
+(5 rows)
+
+ product_id |        product_name         |  price  
+------------+-----------------------------+---------
+         25 | Vintage Lamp (Discontinued) | 1599.00
+         27 | Smart Watch                 | 4999.00
+(2 rows)
+
+ category_name  | products 
+----------------+----------
+ Electronics    |        6
+ Home & Kitchen |        4
+ Books          |        4
+ Clothing       |        4
+ Sports         |        3
+ Beauty         |        2
+ Toys           |        2
+(7 rows)
+
+ category_name |        product_name         
+---------------+-----------------------------
+               | Vintage Lamp (Discontinued)
+               | Gift Card Holder
+(2 rows)
+
+ order_id |  status   | order_date 
+----------+-----------+------------
+        1 | CANCELLED | 2025-06-13
+        9 | DELIVERED | 2025-04-07
+       10 | CANCELLED | 2025-12-14
+       17 | CANCELLED | 2026-03-25
+       18 | RETURNED  | 2025-04-17
+       22 | CANCELLED | 2025-12-29
+       23 | CANCELLED | 2025-12-07
+       27 | DELIVERED | 2025-07-21
+       36 | DELIVERED | 2026-01-25
+       42 | CANCELLED | 2025-05-04
+       45 | DELIVERED | 2026-01-24
+       54 | DELIVERED | 2025-08-26
+       62 | CANCELLED | 2026-03-02
+       63 | CANCELLED | 2025-05-20
+       64 | CANCELLED | 2026-05-17
+       65 | CANCELLED | 2025-08-28
+       72 | DELIVERED | 2025-06-11
+       80 | CANCELLED | 2025-06-08
+       81 | DELIVERED | 2025-10-14
+       90 | CANCELLED | 2026-01-17
+(20 rows)
+
+   customer    | referred_by  
+---------------+--------------
+ Ishaan Gupta  | Ananya Nair
+ Saanvi Sharma | Ishaan Gupta
+ Vikram Gupta  | Rahul Iyer
+ Riya Sharma   | Neha Nair
+ Harsh Gupta   | Meera Das
+(5 rows)
+
+ order_id | paid | order_total 
+----------+------+-------------
+(0 rows)
+
+       product_name        | units_sold 
+---------------------------+------------
+ Bluetooth Speaker         |         35
+ Smartphone Stand          |         35
+ Power Bank 10000mAh       |         23
+ Python Crash Course       |         21
+ Data Engineering Handbook |         20
+ Formal Shirt              |         20
+ Denim Jeans               |         19
+ Running Jacket            |         18
+ Electric Kettle           |         17
+ USB-C Cable               |         17
+(10 rows)
+
+    product_name     | revenue  
+---------------------+----------
+ Bluetooth Speaker   | 69965.00
+ Wireless Earbuds    | 42483.00
+ Mixer Grinder       | 41988.00
+ Running Jacket      | 41382.00
+ Power Bank 10000mAh | 29877.00
+ Denim Jeans         | 28481.00
+ Dumbbell Set 10kg   | 24687.00
+ Lego Building Set   | 22392.00
+ Electric Kettle     | 20383.00
+ Formal Shirt        | 19980.00
+(10 rows)
+
+    category    |  revenue  
+----------------+-----------
+ Electronics    | 160523.00
+ Clothing       |  98229.00
+ Home & Kitchen |  80153.00
+ Sports         |  51667.00
+ Books          |  43884.00
+ Toys           |  27188.00
+ Beauty         |  11781.00
+(7 rows)
+
+       product_name        | lines | returned_lines | return_pct 
+---------------------------+-------+----------------+------------
+ Running Jacket            |    11 |              2 |       18.2
+ Electric Kettle           |    11 |              2 |       18.2
+ Data Engineering Handbook |    12 |              2 |       16.7
+ Yoga Mat                  |     7 |              1 |       14.3
+ Power Bank 10000mAh       |    15 |              2 |       13.3
+ Non-stick Pan             |     9 |              1 |       11.1
+ Smartphone Stand          |    21 |              2 |        9.5
+ Bluetooth Speaker         |    22 |              2 |        9.1
+ Wireless Earbuds          |    11 |              1 |        9.1
+ Formal Shirt              |    12 |              1 |        8.3
+(10 rows)
+
+   product_name    | stock_qty | units_sold 
+-------------------+-----------+------------
+ Smart Watch       |        20 |          0
+ Cricket Bat       |        25 |          7
+ Mixer Grinder     |        30 |         15
+ Lego Building Set |        35 |          9
+ Dumbbell Set 10kg |        40 |         13
+ Bluetooth Speaker |        45 |         44
+(6 rows)
+
+ customer_id |    customer     | orders | total_spend 
+-------------+-----------------+--------+-------------
+          22 | Siddharth Patel |      5 |    47068.00
+           2 | Vivaan Patel    |      6 |    46918.00
+           7 | Kavya Singh     |      5 |    39171.00
+          14 | Rahul Iyer      |      5 |    38867.00
+          10 | Arjun Joshi     |      3 |    33079.00
+          11 | Saanvi Sharma   |      5 |    30377.00
+           8 | Rohan Mehta     |      3 |    28678.00
+          15 | Neha Nair       |      4 |    24827.00
+          20 | Nikhil Joshi    |      3 |    23033.00
+          21 | Riya Sharma     |      3 |    20678.00
+(10 rows)
+
+    customer     | net_spend 
+-----------------+-----------
+ Siddharth Patel |  41806.45
+ Vivaan Patel    |  41469.35
+ Rahul Iyer      |  38250.10
+ Kavya Singh     |  37837.30
+ Arjun Joshi     |  31789.90
+ Rohan Mehta     |  27963.65
+ Saanvi Sharma   |  27364.20
+ Neha Nair       |  21814.85
+ Nikhil Joshi    |  19940.55
+ Riya Sharma     |  18814.85
+(10 rows)
+
+   segment    | customers 
+--------------+-----------
+ High         |        12
+ Medium       |        10
+ No purchases |         6
+ Low          |         2
+(4 rows)
+
+ customer_id | first_name | orders | first_order | last_order 
+-------------+------------+--------+-------------+------------
+           2 | Vivaan     |      6 | 2025-01-04  | 2026-04-27
+          14 | Rahul      |      6 | 2025-08-05  | 2026-02-22
+          22 | Siddharth  |      6 | 2025-06-11  | 2026-05-17
+          24 | Manish     |      6 | 2025-04-03  | 2026-05-11
+           6 | Ishaan     |      5 | 2025-04-23  | 2026-03-25
+           7 | Kavya      |      5 | 2025-01-21  | 2026-06-15
+           8 | Rohan      |      5 | 2025-01-22  | 2026-05-02
+          11 | Saanvi     |      5 | 2025-01-22  | 2026-04-10
+          10 | Arjun      |      4 | 2025-04-17  | 2026-03-22
+          15 | Neha       |      4 | 2025-03-21  | 2026-06-26
+          20 | Nikhil     |      4 | 2025-02-10  | 2026-02-12
+          21 | Riya       |      4 | 2025-02-01  | 2025-11-29
+           1 | Aarav      |      3 | 2025-02-23  | 2026-01-25
+           3 | Aditya     |      3 | 2025-05-25  | 2026-06-11
+           4 | Diya       |      3 | 2025-01-27  | 2026-06-23
+          13 | Priya      |      3 | 2025-02-07  | 2026-05-19
+          19 | Pooja      |      3 | 2025-01-28  | 2025-06-08
+          23 | Tanvi      |      3 | 2025-06-12  | 2026-01-26
+          25 | Divya      |      3 | 2025-02-20  | 2025-10-13
+           9 | Meera      |      2 | 2026-03-02  | 2026-05-11
+          16 | Vikram     |      2 | 2025-04-20  | 2025-06-23
+          17 | Sneha      |      2 | 2025-05-20  | 2026-06-28
+(22 rows)
+
+   city    | buyers |  revenue  
+-----------+--------+-----------
+ Hyderabad |      7 | 148881.00
+ Mumbai    |      5 |  94623.00
+ Pune      |      5 |  90179.00
+ Unknown   |      2 |  50167.00
+ Delhi     |      1 |  28678.00
+ Bengaluru |      1 |  24827.00
+ Chennai   |      1 |  19132.00
+ Kolkata   |      2 |  16938.00
+(8 rows)
+
+ loyalty_tier | customers | revenue_per_customer 
+--------------+-----------+----------------------
+ BRONZE       |        10 |             21463.60
+ SILVER       |         8 |             21126.63
+ GOLD         |         6 |             14962.67
+(3 rows)
+
+  month  | orders | revenue  
+---------+--------+----------
+ 2025-01 |      4 | 32276.00
+ 2025-02 |      6 | 38615.00
+ 2025-03 |      2 |  5843.00
+ 2025-04 |      6 | 29574.00
+ 2025-05 |      2 | 23683.00
+ 2025-06 |      5 | 40720.00
+ 2025-07 |      1 |  9893.00
+ 2025-08 |      4 | 29227.00
+ 2025-09 |      4 | 25180.00
+ 2025-10 |      7 | 42014.00
+ 2025-11 |      1 | 11691.00
+ 2025-12 |      2 | 16485.00
+ 2026-01 |      7 | 40964.00
+ 2026-02 |      5 | 36924.00
+ 2026-03 |      2 | 20185.00
+ 2026-04 |      2 | 18389.00
+ 2026-05 |      4 | 14685.00
+ 2026-06 |      5 | 37077.00
+(18 rows)
+
+ weekday | dow_no | orders 
+---------+--------+--------
+ Mon     |      1 |     20
+ Tue     |      2 |     13
+ Wed     |      3 |      9
+ Thu     |      4 |     11
+ Fri     |      5 |     12
+ Sat     |      6 |      7
+ Sun     |      7 |     18
+(7 rows)
+
+  yr  | qtr | revenue  
+------+-----+----------
+ 2025 |   1 | 76734.00
+ 2025 |   2 | 93977.00
+ 2025 |   3 | 64300.00
+ 2025 |   4 | 70190.00
+ 2026 |   1 | 98073.00
+ 2026 |   2 | 70151.00
+(6 rows)
+
+   month    | avg_days_to_ship 
+------------+------------------
+ 2025-01-01 |             2.83
+ 2025-02-01 |             3.38
+ 2025-03-01 |             1.00
+ 2025-04-01 |             2.43
+ 2025-05-01 |             3.00
+ 2025-06-01 |             2.50
+ 2025-07-01 |             1.00
+ 2025-08-01 |             2.75
+ 2025-09-01 |             2.50
+ 2025-10-01 |             2.29
+ 2025-11-01 |             3.00
+ 2025-12-01 |             4.00
+ 2026-01-01 |             2.67
+ 2026-02-01 |             2.40
+ 2026-03-01 |             2.50
+ 2026-04-01 |             2.67
+ 2026-05-01 |             2.00
+ 2026-06-01 |             2.33
+(18 rows)
+
+  month  | orders | cancelled | cancel_pct 
+---------+--------+-----------+------------
+ 2025-01 |      6 |         0 |        0.0
+ 2025-02 |      8 |         0 |        0.0
+ 2025-03 |      2 |         0 |        0.0
+ 2025-04 |      7 |         0 |        0.0
+ 2025-05 |      4 |         2 |       50.0
+ 2025-06 |      8 |         2 |       25.0
+ 2025-07 |      1 |         0 |        0.0
+ 2025-08 |      6 |         1 |       16.7
+ 2025-09 |      4 |         0 |        0.0
+ 2025-10 |      7 |         0 |        0.0
+ 2025-11 |      1 |         0 |        0.0
+ 2025-12 |      5 |         3 |       60.0
+ 2026-01 |      8 |         1 |       12.5
+ 2026-02 |      5 |         0 |        0.0
+ 2026-03 |      4 |         2 |       50.0
+ 2026-04 |      3 |         0 |        0.0
+ 2026-05 |      5 |         1 |       20.0
+ 2026-06 |      6 |         0 |        0.0
+(18 rows)
+
+ day_type | orders 
+----------+--------
+ Weekend  |     25
+ Weekday  |     65
+(2 rows)
+
+ recent_orders 
+---------------
+            15
+(1 row)
+
+ first_upper | email_len |   domain    | short_last 
+-------------+-----------+-------------+------------
+ AARAV       |        25 | example.com | Sha
+ VIVAAN      |        25 | example.com | Pat
+ ADITYA      |        25 | example.com | Red
+ DIYA        |        22 | example.com | Iye
+ ANANYA      |        24 | example.com | Nai
+ ISHAAN      |        25 | example.com | Gup
+ KAVYA       |        24 | example.com | Sin
+ ROHAN       |        24 | example.com | Meh
+ MEERA       |        22 | example.com | Das
+ ARJUN       |        25 | example.com | Jos
+(10 rows)
+
