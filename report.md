@@ -21,4 +21,9 @@
 - 20 orders without a payment record, mostly cancelled or unpaid (Q24).
 
 ## 5. What I learned
-_(Write 3–4 lines in your own words: which JOIN was hardest, how COALESCE/NULLIF helped, etc.)_
+- **JOINs:** INNER JOIN only returns rows that match on both sides. LEFT JOIN with `WHERE ... IS NULL` finds rows with no match, for example customers who never ordered (5 customers) and products that were never sold (2 products). FULL OUTER JOIN shows unmatched rows from both tables.
+- **NULL handling:** NULL is not the same as 0 or an empty string, so I used `IS NULL` instead of `= NULL`. `COALESCE` replaced missing values (phone became 'N/A', missing discount became 0), and `NULLIF` avoided divide-by-zero errors.
+- **Aggregates:** `GROUP BY` groups rows, and `HAVING` filters the groups after they are counted, whereas `WHERE` filters rows before grouping. I used these for top products, customer spend and monthly trends.
+- **CASE WHEN and dates:** I used CASE WHEN to make customer segments and to split weekday from weekend orders, and TO_CHAR / EXTRACT to build monthly and quarterly trends.
+- **Constraints:** PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK and NOT NULL stop bad data. When I tried to insert a negative price or a duplicate email, the database rejected it with an error.
+- **Hardest part:** counting revenue correctly. Because one order has many order lines, I had to use `COUNT(DISTINCT order_id)` to avoid counting an order twice, and filter out cancelled and returned orders.
